@@ -31,8 +31,8 @@ except:
 # LOAD DATA
 # -------------------------
 def load_data():
-    movies = pd.read_csv("tmdb_5000_movies.csv")
-    credits = pd.read_csv("tmdb_5000_credits.csv")
+    movies = pd.read_csv("data/tmdb_5000_movies.csv")
+    credits = pd.read_csv("data/tmdb_5000_credits.csv")
     return movies.merge(credits, on="title")
 
 
