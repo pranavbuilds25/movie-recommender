@@ -1,6 +1,25 @@
+# Virtual environments
 venv/
 .venv/
+
+# Python cache
 __pycache__/
 *.pyc
+
+# Environment variables (IMPORTANT)
+.env
+
+# Dataset / extra files
 ml-latest-small/
 ml-latest-small.zip
+data/
+archive.zip
+
+# OS files
+.DS_Store
+
+# Streamlit cache
+.streamlit/
+
+# Jupyter (if used later)
+.ipynb_checkpoints/
